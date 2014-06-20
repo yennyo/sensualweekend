@@ -31,7 +31,7 @@ a:hover {
 }
 h1, h2 {
 	color: inherit;
-	font-family: 'Roboto';
+	font-family: 'Open Sans';
 	font-weight: normal;
 	line-height: 40px;
 	margin: 5px 0 20px;
@@ -809,7 +809,7 @@ a.instagram:hover {
 
 /* Intro Page Jumbotron */
 .jumbotron {
-	padding-top: 200px;
+	padding-top: 260px;
 	height: 400px;
 }
 .jumbotron > div.span12 {
@@ -817,12 +817,17 @@ a.instagram:hover {
 	width: 100%;
 }
 .jumbotron h1 {
-	font-size: 100px;
-	font-weight: 800;
+	font-size: 90px;
+	font-weight: 100;
 	line-height: 1;
-	margin: 10px 0 20px;
+	margin: 10px 0 40px 0 !important;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	text-transform: none;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", "Open Sans", sans-serif;
+}
+.jumbotron h1 span {
+	display: block;
+	font-weight: 700;
 }
 .jumbotron h2 {
 	font-size: 60px;
@@ -837,20 +842,18 @@ a.instagram:hover {
 }
 .jumbotron h4 {
 	font-size: 32px;
-	font-weight: 400;
+	font-weight: 100;
 	line-height: 1.1;
 	text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 .jumbotron .info {
-	margin: 30px auto 0;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	background: transparent;
-	font-size: 30px;
+	font-size: 32px;
 	font-weight: 700;
-	letter-spacing: 4px;
-	text-transform: uppercase;
+	margin-bottom: 50px;
 }
 .jumbotron .days, .jumbotron .month, .jumbotron .year, .jumbotron .location {
 	display: inline-block;
