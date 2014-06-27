@@ -183,7 +183,7 @@ $(document).ready(function () {
 
 	// Google Map //
 	$('#map_canvas').gmap({
-		'center': new google.maps.LatLng(59.9153745,10.7353347,13), // Change this to your desired latitude and longitude
+		'center': new google.maps.LatLng(59.9286905,10.7161722,13), // Change this to your desired latitude and longitude
 		'zoom': 12,
 		'mapTypeControl': false,
 		'navigationControl': false,
@@ -216,7 +216,7 @@ $(document).ready(function () {
 	$('#map_canvas').gmap().bind('init', function () {
 		$('#map_canvas').gmap('addMarker', {
 			'id': 'marker-1',
-			'position': '59.9153745,10.7353347,13',
+			'position': '59.9286905,10.7161722,13',
 			'bounds': false,
 			'icon': image
 		}).click(function () {
