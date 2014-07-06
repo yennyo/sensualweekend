@@ -835,6 +835,15 @@ a.instagram:hover {
 	text-transform: uppercase;
 	font-family: "Helvetica Neue", "Open Sans", sans-serif;
 }
+
+#payment h1 {
+	font-size: 70px;
+}
+#payment h4 {
+	font-family: "Helvetica Neue", "Open Sans", sans-serif;
+	font-weight: 200;
+}
+
 .jumbotron h1 span {
 	display: block;
 	font-weight: 700;
